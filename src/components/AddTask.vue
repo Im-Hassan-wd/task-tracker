@@ -37,6 +37,19 @@ export default {
         alert('Do well and add a task')
         return
       }
+
+      const newTask = {
+        id: Math.floor(Math.random() * 100000),
+        text: this.text,
+        date: this.date,
+        reminder: this.reminder
+      }
+
+      this.$emit('add-task', newTask)
+
+      this.text = ''
+      this.date = ''
+      this.reminder = false
     }
   },
 }
