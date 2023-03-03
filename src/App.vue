@@ -1,9 +1,14 @@
 <template>
-  <h1>Hello World</h1>
+  <div class="container">
+    <h1>Hello World</h1>
+  </div>
 </template>
 
 <script>
-
+export default {
+  name: "App",
+  components: {},
+}
 </script>
 
 <style>
@@ -16,16 +21,30 @@
   font-family: 'Poppins', sans-serif;
 }
 
-nav {
-  padding: 30px;
+body {
+  color: #333;
 }
 
-nav a {
-  font-weight: bold;
-  color: #2c3e50;
+.container {
+  max-width: 700px;
+  margin: 32px auto;
+  min-height: 300px;
+  border: 1px solid steelblue;
+  padding: 24px;
+  border-radius: 12px;
 }
 
-nav a.router-link-exact-active {
-  color: #42b983;
+.btn {
+  display: inline-block;
+  background: #000;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  margin: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 16px;
+
 }
 </style>
