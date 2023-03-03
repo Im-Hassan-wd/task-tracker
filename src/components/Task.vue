@@ -1,5 +1,8 @@
 <template>
-  <h3>{{ task.text }}</h3>
+  <div class="">
+    <h3>{{ task.text }}</h3>
+    <p>{{ task.day }}</p>
+  </div>
 </template>
 
 <script>
