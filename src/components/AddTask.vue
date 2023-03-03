@@ -1,5 +1,5 @@
 <template>
-  <form>
+  <form @submit="handleSubmit"> 
     <div class="form-control">
       <label>Task</label>
       <input type="text" v-model="text" name="text" placeholder="Add Task">
@@ -28,7 +28,17 @@ export default {
       date: '',
       reminder: true
     }
-  }
+  }, 
+  methods: {
+    handleSubmit(e) {
+      e.preventDefault()
+
+      if(!this.text) {
+        alert('Do well and add a task')
+        return
+      }
+    }
+  },
 }
 </script>
 
