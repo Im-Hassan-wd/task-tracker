@@ -1,22 +1,22 @@
 {
   "tasks": [
     {
-      "id": 51826,
-      "text": "Finish the project",
-      "date": "March 10 at 10:00am",
-      "reminder": true
-    },
-    {
       "text": "Doctors Appointment",
       "date": "March 9 at 10:00am",
       "reminder": true,
-      "id": 51827
+      "id": 2
     },
     {
-      "text": "Play minimilitia",
-      "date": "Every goddem day (:",
-      "reminder": true,
-      "id": 51828
+      "text": "Play minimilitia ",
+      "date": "Every goddem day ",
+      "reminder": false,
+      "id": 3
+    },
+    {
+      "text": "Finish the project",
+      "date": "March 10 at 10:00am",
+      "reminder": false,
+      "id": 4
     }
   ]
 }
