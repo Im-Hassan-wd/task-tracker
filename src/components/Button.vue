@@ -8,7 +8,7 @@ export default {
   props: ['color', 'text'],
   methods: {
     handleClick() {
-      this.$emit('toggle-add-task')
+      this.$emit('btn-click')
     }
   }
 }
