@@ -23,7 +23,7 @@ export default {
   data() {
     return {
       tasks: [],
-      showAddTask: false
+      showAddTask: true
     }
   },
   methods: {
@@ -35,13 +35,23 @@ export default {
     toggleReminder(id) {
       this.tasks = this.tasks.map(task => task.id === id ? {...task, reminder: !task.reminder} : task)
     },
-    addTask(task) {
+    async addTask(task) {
+      const res = await fetch('api/tasks', {
+        method: 'POST',
+        headers: {
+          'Content-type': 'application/json',
+        },
+        body: JSON.stringify(task)
+      })
+
+      const data = await res.json()
+
       this.tasks = [...this.tasks, task]
     },
     toggleAddTasks() {
       this.showAddTask = !this.showAddTask
     },
-    async fetchTask() {
+    async fetchTasks() {
       const res = await fetch("api/tasks")
       const data = await res.json()
 

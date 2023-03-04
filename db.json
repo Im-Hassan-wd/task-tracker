@@ -17,6 +17,12 @@
       "text": "Play MiniMilitia",
       "date": "Every goddem day",
       "reminder": true
+    },
+    {
+      "id": 51826,
+      "text": "Finish the project",
+      "date": "March 10 at 10:00am",
+      "reminder": true
     }
   ]
 }
