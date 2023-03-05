@@ -21,7 +21,7 @@
     {
       "text": "Doctors Appointment",
       "date": "March 6 at 10:00am",
-      "reminder": false,
+      "reminder": true,
       "id": 6
     }
   ]
