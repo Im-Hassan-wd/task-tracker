@@ -18,7 +18,7 @@ export default {
   },
   data() {
     return {
-      showAddTask: true
+      showAddTask: false
     }
   },
   methods: {  
