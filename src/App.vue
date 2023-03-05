@@ -41,6 +41,7 @@ export default {
 
 body {
   color: #333;
+  padding: 0 16px;
 }
 
 .container {

@@ -36,4 +36,10 @@ export default {
     align-items: center;
     margin-bottom: 24px;
   }
+
+  @media (max-width: 500px) {
+    header h1 {
+      font-size: 25px;
+    }
+  }
 </style>
