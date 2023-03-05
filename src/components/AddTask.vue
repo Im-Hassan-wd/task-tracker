@@ -55,6 +55,9 @@ export default {
 </script>
 
 <style>
+.btn-block {
+  width: 100%;
+}
 form {
   margin-bottom: 40px;
 }

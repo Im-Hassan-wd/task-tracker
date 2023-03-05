@@ -1,15 +1,9 @@
 {
   "tasks": [
     {
-      "text": "Doctors Appointment",
-      "date": "March 9 at 10:00am",
-      "reminder": true,
-      "id": 2
-    },
-    {
       "text": "Play minimilitia ",
       "date": "Every goddem day ",
-      "reminder": false,
+      "reminder": true,
       "id": 3
     },
     {
@@ -17,6 +11,18 @@
       "date": "March 10 at 10:00am",
       "reminder": false,
       "id": 4
+    },
+    {
+      "text": "Prepare from Ramadhan",
+      "date": "as soon as posibble",
+      "reminder": true,
+      "id": 5
+    },
+    {
+      "text": "Doctors Appointment",
+      "date": "March 6 at 10:00am",
+      "reminder": false,
+      "id": 6
     }
   ]
 }
